@@ -186,6 +186,14 @@ Message Body Postman: ${body}
 Mensagem do Postman
 ```
 
+Resultado:
+```
+Message Header:       ValorHeader
+Exchange Property:    ValorProperty
+Message Body CPI:     Mensagem do CPI
+Message Body Postman: Mensagem do Postman
+```
+
 <br><br>
 
 ## 📦 Exemplo prático – iFlow para baixar
