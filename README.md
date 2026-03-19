@@ -60,7 +60,7 @@ Contém a mensagem a mensagem principal que está sendo processada.
 <br><br>
 ### Criando nosso Iflow
 ![Fluxo](imagens/Screenshot_1.png)
-<br><br>
+<br><br><br>
 
 ### Criando o Integration Flow
 ![Fluxo](imagens/Screenshot_2.png)
