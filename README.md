@@ -14,6 +14,7 @@ O foco principal é mostrar como manipular mensagens utilizando o Content Modifi
 🚧 Body
 
 Esses conceitos são fundamentais para qualquer cenário de integração no dia a dia.
+![Fluxo](imagens/capa-linkedin.png)
 
 🎯 Objetivo
 
