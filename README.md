@@ -57,7 +57,7 @@ Contém a mensagem a mensagem principal que está sendo processada.
 # :building_construction: Arquitetura do iFlow
 
 ### :one: O fluxo foi desenvolvido no SAP Cloud Integration (CPI) seguindo as etapas abaixo.
-
+<br><br>
 ### Criando nosso Iflow
 ![Fluxo](imagens/Screenshot_1.png)
 <br><br>
@@ -67,12 +67,12 @@ Contém a mensagem a mensagem principal que está sendo processada.
 ```
 CustomContentModifier
 ```
-<br>
+<br><br>
 
 ### Adicionando o Artefato do Integration Flow
 ![Fluxo](imagens/Screenshot_3.png)
 
-<br>
+<br><br>
 
 ### Criando o Integration Flow
 ![Fluxo](imagens/Screenshot_4.png)
@@ -80,7 +80,7 @@ CustomContentModifier
 ModifyContentModifier
 ```
 
-<br>
+<br><br>
 :gear: Etapas da Integração
 
 <br>
@@ -95,7 +95,7 @@ ModifyContentModifier
 ### Remover o Receiver
 ![Fluxo](imagens/Screenshot_6.png)
 
-<br
+<br>
 
 ### :three:  HTTPS Sender
 ### Adicionando o HTTPS
