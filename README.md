@@ -1,16 +1,57 @@
-# 🚨 How to use Apache Camel Framework in SAP CI
+# 🚨 SAP BTP CPI – Using Apache Camel Framework  
+## 📌 How to Use Apache Camel in SAP Cloud Integration (CI)
 
-##SAP BTP CPI - How to use Apache Camel in SAP CI
+📖 Sobre o Projeto
 
+Este projeto demonstra, de forma prática, como utilizar conceitos do Apache Camel dentro do SAP BTP Integration Suite (Cloud Integration – CPI).
 
-![Capa](imagens/capa-linkedin.png)
+O foco principal é mostrar como manipular mensagens utilizando o Content Modifier, trabalhando com:
 
+Headers
 
-Este projeto demonstra como usar o Content Modifier usando o Header - Property e Body
+Properties
 
-## 📌 Objetivo
+Body
 
-Entender os conceitos do Apache Camel no dia a dia
+Esses conceitos são fundamentais para qualquer cenário de integração no dia a dia.
+
+🎯 Objetivo
+
+Quando iniciamos no SAP CPI, um dos primeiros aprendizados é entender como o Apache Camel funciona por trás dos iFlows.
+
+Este projeto tem como objetivo:
+
+Demonstrar o uso de Headers, Properties e Body
+
+Explicar como o Apache Camel atua dentro do CPI
+
+Facilitar o entendimento de como os dados trafegam em um iFlow
+
+Servir como base para projetos mais avançados
+
+⚙️ Tecnologias Utilizadas
+
+SAP BTP Integration Suite (Cloud Integration - CPI)
+
+Apache Camel
+
+Content Modifier
+
+🔍 Conceitos Abordados
+
+📌 Headers
+
+Usados para transportar informações técnicas entre etapas do iFlow.
+
+📌 Properties
+
+Utilizadas para armazenar dados temporários durante o processamento da integração.
+
+📌 Body
+
+Contém a mensagem 
+
+Contém a mensagem principal que está sendo processada.
 ---
 
 
@@ -155,91 +196,6 @@ Nesta etapa, vamos utilizar o adapter de Email para que possamos realizar as con
 
 O retorno é recebido no formato HTML.
 
-### Adicionamos o Adapter Mail
-![Fluxo](imagens/Screenshot_18.png)
-
-<br>
-
-### Configuração do Mail - Connection
-![Fluxo](imagens/Screenshot_19.png)
-```
-Address: smtp.gmail.com
-Protection: SMTPS
-Authentication: Plain User/Password
-```
-<br>
-
-### Configuração do Mail - Processing
-Vamos marcar Body Mime Type: Text/HTML
-![Fluxo](imagens/Screenshot_20.png)
-
-<br>
-
-### Configuração do Mail - Processing
-Vamos marcar Body Mime Type: Text/HTML
-![Fluxo](imagens/Screenshot_21.png)
-
-<br>
-
-### Configuração do Mail - Processing
-Vamos marcar Body Mime Type: Text/HTML
-![Fluxo](imagens/Screenshot_22.png)
-
-<br>
-
-### Configuração do Mail - Processing
-Vamos marcar Body Mime Type: Text/HTML
-![Fluxo](imagens/Screenshot_23.png)
-
-<br>
-
-### Configuração do Mail - Processing
-Vamos marcar Body Mime Type: Text/HTML
-![Fluxo](imagens/Screenshot_24.png)
-
-<br>
-
-### Configuração do Mail - Processing
-Vamos marcar Body Mime Type: Text/HTML
-![Fluxo](imagens/Screenshot_25.png)
-
-<br>
-
-### Configuração do Mail - Processing
-Vamos marcar Body Mime Type: Text/HTML
-![Fluxo](imagens/Screenshot_26.png)
-
-
-<br>
-
-### Configuração do Mail - Processing
-Vamos marcar Body Mime Type: Text/HTML
-![Fluxo](imagens/Screenshot_27.png)
-
-
-<br>
-
-### Configuração do Mail - Processing
-Vamos marcar Body Mime Type: Text/HTML
-![Fluxo](imagens/Screenshot_28.png)
-
-<br>
-
-### Configuração do Mail - Processing
-Vamos marcar Body Mime Type: Text/HTML
-![Fluxo](imagens/Screenshot_29.png)
-
-<br>
-
-### Configuração do Mail - Processing
-Vamos marcar Body Mime Type: Text/HTML
-![Fluxo](imagens/Screenshot_30.png)
-
-<br>
-
-### Configuração do Mail - Processing
-Vamos marcar Body Mime Type: Text/HTML
-![Fluxo](imagens/Screenshot_31.png)
 
 
 
