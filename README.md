@@ -7,11 +7,11 @@ Este projeto demonstra, de forma prática, como utilizar conceitos do Apache Cam
 
 O foco principal é mostrar como manipular mensagens utilizando o Content Modifier, trabalhando com:
 
-Headers
+🚧 Headers
 
-Properties
+🚧 Properties
 
-Body
+🚧 Body
 
 Esses conceitos são fundamentais para qualquer cenário de integração no dia a dia.
 
