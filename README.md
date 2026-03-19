@@ -65,7 +65,7 @@ Contém a mensagem a mensagem principal que está sendo processada.
 ### Criando o Integration Flow
 ![Fluxo](imagens/Screenshot_2.png)
 ```
-Address: /NotificationEmail
+CustomContentModifier
 ```
 <br>
 
@@ -77,7 +77,7 @@ Address: /NotificationEmail
 ### Criando o Integration Flow
 ![Fluxo](imagens/Screenshot_4.png)
 ```
-CustomEmailNotification
+ModifyContentModifier
 ```
 
 <br>
@@ -85,53 +85,50 @@ CustomEmailNotification
 
 <br>
 
-### :two:  Manage Security
+### :two:  Editar o Iflow
 
-Criando nosso usuário para enviar o E-Mail
-### Security Material
+### Editar o Iflow
 ![Fluxo](imagens/Screenshot_5.png)
 
 <br>
 
-### Criando Credentials
+### Remover o Receiver
 ![Fluxo](imagens/Screenshot_6.png)
 
-<br>
+<br
 
-### Editando Credentials
+### :three:  HTTPS Sender
+### Adicionando o HTTPS
 ![Fluxo](imagens/Screenshot_7.png)
-```
-GmailUser
-```
+
 <br>
 
-### :three:  Configuração Google Gmail
-### Acessar ao Site
-```
-https://myaccount.google.com/apppasswords
-```
+
+### Configurando o HTTPS
+O fluxo é iniciado através de um endpoint HTTPS, permitindo que aplicações externas consultem o serviço.
 ![Fluxo](imagens/Screenshot_8.png)
 ```
-SAP CPI
+Address: /modificar
 ```
 <br>
 
-### Armazenar a senha
+### :four:  Content Modifier
+### Adicionando o Content Modifier
+Vamos criar 3 Content Modifier na conexão
 ![Fluxo](imagens/Screenshot_9.png)
 
 <br>
 
-### Adicionar a senha nas Credentials
+### Ficando dessa forma
 ![Fluxo](imagens/Screenshot_10.png)
 
 <br>
 
-### Editando nosso Iflow
+### Renomear  Content Modifier - Header
 ![Fluxo](imagens/Screenshot_11.png)
-
-<br>
-
-### :four:  HTTPS Sender
+```
+setHeader
+```
 
 <br>
 
@@ -141,7 +138,6 @@ SAP CPI
 <br>
 
 ### Configurando o Endpoint
-O fluxo é iniciado através de um endpoint HTTPS, permitindo que aplicações externas consultem o serviço.
 
 ![Fluxo](imagens/Screenshot_13.png)
 
