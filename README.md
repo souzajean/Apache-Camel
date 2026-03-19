@@ -49,9 +49,8 @@ Utilizadas para armazenar dados temporários durante o processamento da integra�
 
 📌 Body
 
-Contém a mensagem 
+Contém a mensagem a mensagem principal que está sendo processada.
 
-Contém a mensagem principal que está sendo processada.
 ---
 
 
