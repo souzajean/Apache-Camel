@@ -132,32 +132,30 @@ setHeader
 
 <br>
 
-### Adicionando o HTTPS
+### Configurando Content Modifier - Header
 ![Fluxo](imagens/Screenshot_12.png)
-
+```
+Create  -  setHeader  - Constant  -  ValorHeader
+```
 <br>
 
-### Configurando o Endpoint
+### Renomear  Content Modifier - Property
 
 ![Fluxo](imagens/Screenshot_13.png)
 
 ```
-/NotificationEmail
+setProperty
 ```
 <br>
 
-### :five: Content Modifier – Definição  Prepare Email Payload
-
-Nesta etapa são definidas as configurações que vamos usar para o Pauload.
-
-
-### Adicionando o Content Modifier
+### Configurando Content Modifier - Property
 ![Fluxo](imagens/Screenshot_14.png)
-
+```
+Create  -  setProperty  - Constant  -  ValorProperty
+```
 <br>
 
-### Renomeando o Content Modifier
-Renomeamos o Content Modifier 
+### Renomear  Content Modifier - Body
 ![Fluxo](imagens/Screenshot_15.png)
 ```
 Prepare Email Payload
@@ -167,33 +165,26 @@ Prepare Email Payload
 ### Configurando o Content Modifier - Header
 ![Fluxo](imagens/Screenshot_16.png)
 
-Em Header adicionamos
+Alteramos o Type: 
 ```
-Message Header
-create   -   CPI_Tenant   -    Expression   -    ${header.CamelHttpUrl}          - java.lang.String
+Expression
 ```
 <br>
 
-### Configurando o Content Modifier - Property
+No Body:
+```
+Message Header:       ${header.setHeader}
+Exchange Property:    ${property.setProperty}
+Message Body CPI:     Mensagem do CPI
+Message Body Postman: ${body}
+```
+<br>
+
+### Configurando o Postman
 ![Fluxo](imagens/Screenshot_17.png)
-
-Em Property adicionamos
 ```
-Exchange Property
-create   -   Iflow_Name   -    Constant     -    NotificationEmail
-create   -   Date_Now     -    Expression   -    ${date:now:yyyy-MM-dd HH:mm:ss}    - java.lang.String
+Mensagem do Postman
 ```
-<br>
-
-### :six: End – Receiver
-
-Nesta etapa, vamos utilizar o adapter de Email para que possamos realizar as conexões e configurações no adapter, para recebermos o e-mail da forma que queremos.
-
-O retorno é recebido no formato HTML.
-
-
-
-
 
 <br><br>
 
