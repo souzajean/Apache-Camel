@@ -162,7 +162,7 @@ Prepare Email Payload
 ```
 <br>
 
-### Configurando o Content Modifier - Header
+### Configurando o Content Modifier - Body
 ![Fluxo](imagens/Screenshot_16.png)
 
 Alteramos o Type: 
